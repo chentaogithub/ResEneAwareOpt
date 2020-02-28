@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 SET(CMAKE_CXX_FLAGS -pthread)
 
-add_executable(ResEneAwareOpt main.cpp ResourceAware/resInfoCollection.cpp ResourceAware/resMonitor.cpp ResourceAware/resStateSet.cpp ResourceAware/test1/linuxserverstate.h ResourceAware/test1/linuxserverstate.cpp ResourceAware/test1/test.cpp)
+add_executable(ResEneAwareOpt main.cpp ResourceAware/resStateSet.cpp ResourceAware/test/linuxserverstate.h ResourceAware/test/linuxserverstate.cpp ResourceAware/test/test.cpp ResourceAware/resInfoCollection.h ResourceAware/resInfoCollection.cpp ResourceAware/resInfoMonitor.cpp)

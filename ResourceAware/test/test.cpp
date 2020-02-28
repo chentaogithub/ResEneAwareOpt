@@ -6,7 +6,7 @@
 using namespace std;
 using namespace LINUXSERV_STATE;
 
-int main(int argc, char *argv[])
+int _main(int argc, char *argv[])
 {
 
     //cpu利用率
