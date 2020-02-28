@@ -57,6 +57,8 @@ int main(int argc, char *argv[])
     stat.GetProcInfo(procinfo);
     cout<<"procinfo:"<<endl;
     vector<SysProcInfo>::iterator itproc = procinfo.begin();
+
+
     for(; itproc != procinfo.end(); ++itproc)
     {
         cout<<"\tname:"<<itproc->name<<endl;
