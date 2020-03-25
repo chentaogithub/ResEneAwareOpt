@@ -30,10 +30,16 @@ int getResState(ResourceInfo& resourceInfo){
     return OTHER;
 }
 
-int main(int argc, char *argv[]) {
+int run_main(int argc, char *argv[]) {
+    //int a=2,b;
+
+    //std::scanf("%d,%d",&a,&b);
+    //std::printf("%d,%d",a,b);
+
     ResourceInfo stat;
     while(true){
         sleep(1);
         std::cout<<"the resorce state is: "<< getResState(stat)<<endl;
     }
+
 }
